@@ -1,8 +1,14 @@
+def Square():
+    return()
 
+number = int(input("Input number: "))
+i = int()
 
-def main():
-    #Escribe tu código debajo de esta línea
-    pass
+j = 1
 
-if __name__=='__main__':
-    main()
+while i <= number:
+    j = j + 1
+    i = j**2
+    
+    if i > number:
+        print("Result: ", j)

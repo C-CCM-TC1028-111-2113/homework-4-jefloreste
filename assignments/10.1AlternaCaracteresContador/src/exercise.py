@@ -1,6 +1,12 @@
-def main():
-    #escribe tu código abajo de esta línea
-    pass
+rows = int(input("Input the # of rows wanted: "))
 
-if __name__=='__main__':   
-    main()
+i = 1
+while(i <= rows):
+    j = 1
+    if(i % 2 != 0):          
+        print('#', end = ' ')
+    else:
+        print('%', end = ' ')
+    j = j + 1
+    i = i + 1
+    print()
